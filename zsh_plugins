@@ -1,0 +1,10 @@
+sindresorhus/pure   # Enhance your prompt
+
+# Oh My Zsh plugins
+# ohmyzsh/ohmyzsh path:lib
+# ohmyzsh/ohmyzsh path:plugins/extract
+
+# Add fish-like features
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-history-substring-search

@@ -4,5 +4,5 @@
     ~/.profile: profile
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
-
+    ~/.zsh_plugins: zsh_plugins
 
