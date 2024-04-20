@@ -71,7 +71,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -103,8 +103,8 @@ export LANG=en_US.UTF-8
 alias vi=vim
 
 # Antidote (Zsh Plugins)
-source ${ZDOTDIR:-$HOME}/antidote.zsh
-antidote load ${ZDOTDIR:-$HOME}/.zsh_plugins
+source ${HOME}/antidote.zsh
+antidote load ${HOME}/.zsh_plugins
 
 # Zoxide and fzf
 eval "$(zoxide init --cmd cd zsh)"
