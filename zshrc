@@ -103,7 +103,7 @@ export LANG=en_US.UTF-8
 alias vi=vim
 
 # Antidote (Zsh Plugins)
-source ${HOME}/antidote.zsh
+source ${HOME}/.antidote/antidote.zsh
 antidote load ${HOME}/.zsh_plugins
 
 # Zoxide and fzf
