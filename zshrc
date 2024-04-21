@@ -101,6 +101,12 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi=vim
+alias sudovi='sudo -E vi'
+alias l='exa'
+alias la='exa -a'
+alias ll='exa -lah'
+alias ls='exa --color=auto'
+alias cat='bat --style=plain'
 
 # Antidote (Zsh Plugins)
 source ${HOME}/.antidote/antidote.zsh
